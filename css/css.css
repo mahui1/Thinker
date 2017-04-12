@@ -1,0 +1,248 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: Arial, "微软雅黑";
+	color: #666;
+}
+
+a {
+	color: #666;
+	text-decoration: none;
+	outline: none;
+}
+
+a:active {
+	star: expression(this.onFocus=this.blur());
+}
+
+img {
+	border: 0px;
+}
+
+a:link {
+	text-decoration: none;
+	outline: none;
+}
+
+a:visited {
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #054284;
+	outline: none;
+}
+
+ul,
+p,
+dl,
+dt,
+dd {
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+	list-style-position: outside;
+	list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-size: 14px;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	font-size: 16px;
+}
+
+h5 {
+	font-size: 12px;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clear_f {
+	clear: both;
+	height: 0px;
+	padding: 0px;
+	margin: 0px;
+	display: block;
+	_display: inherit;
+}
+
+.h10 {
+	height: 10px;
+	overflow: hidden;
+	clear: both;
+}
+
+.h30 {
+	height: 30px;
+	overflow: hidden;
+	clear: both;
+}
+
+.h100 {
+	height: 100px;
+	overflow: hidden;
+	clear: both;
+}
+
+input {
+	background: transparent;
+	padding: 0px;
+	font-size: 12px;
+	font-family: Arial, "微软雅黑";
+	color: #888;
+	border: 0px;
+	outline: none;
+}
+
+em {
+	font-style: normal;
+}
+
+i {
+	font-style: normal;
+}
+
+.top_1 {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	height: 80px;
+}
+
+.top_1 .logo_left {
+	position: absolute;
+	left: 0px;
+	top: 22px;
+}
+
+.top_1 .logo_right {
+	position: absolute;
+	left: 224px;
+	top: 32px;
+	font-size: 18px;
+	color: #999;
+}
+
+.top_1 .nav {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 80px;
+	border-right: #ededed solid 1px;
+}
+
+.top_1 .nav li {
+	float: left;
+	height: 80px;
+	width: 109px;
+	position: relative;
+	border-left: #ededed solid 1px;
+}
+
+.top_1 .nav a {
+	float: left;
+	height: 80px;
+	width: 109px;
+	overflow: hidden;
+	text-align: center;
+	color: #c0c0c0;
+	position: relative;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+.top_1 .nav a p {
+	padding-top: 24px;
+	height: 25px;
+	overflow: hidden;
+	font-size: 16px;
+	color: #333;
+}
+
+.top_1 .nav a:hover {
+	background: #006ab4;
+	color: #FFF;
+}
+
+.sNav {
+	position: absolute;
+	top: 80px;
+	z-index: 100;
+	width: 110px;
+	display: none;
+	background: #fff;
+}
+
+.sNav li {
+	height: 50px;
+	border-bottom: #ededed solid 1px;
+	padding: 0 13px;
+	position: relative;
+}
+
+.sNav li:last-child {
+	border-bottom: none;
+}
+
+.sNav a {
+	display: block;
+	display: table-cell;
+	vertical-align: middle;
+	color: #999;
+	height: 50px;
+	overflow: hidden;
+	font-size: 14px;
+	position: relative;
+	text-align: center;
+	width: 110px;
+}
+
+.sNav a:hover {
+	color: #ea051a;
+}
+.nav a:hover,
+.nav .aNow {
+	background: #006ab4;
+	color: #FFF;
+}
+
+.nav a:hover div,
+.nav .aNow div,
+.nav .aNow1 div {
+	color: #fff;
+}
+
+.nav .aNow1,
+.nav .sNavA:hover {
+	background: #006ab4;
+	color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
