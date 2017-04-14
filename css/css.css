@@ -230,9 +230,7 @@ i {
 .nav .aNow1 div {
 	color: #fff;
 }
-
-.nav .aNow1,
-.nav .sNavA:hover {
+.nav .aNow1:hover {
 	background: #006ab4;
 	color: #FFF;
 }
