@@ -57,5 +57,5 @@ $(function(){
 	})
 function ProductFun(){
 	$('.productShow_1Tel').find('.list').width(parseInt($(window).width()/87)*87);
-	jQuery(".productShow_1Tel").slide({mainCell:"ul",autoPage:true,effect:"left",vis:parseInt($(window).width()/87)});
+	jQuery(".prouctShow_1Tel").slide({mainCell:"ul",autoPage:true,effect:"left",vis:parseInt($(window).width()/87)});
 	}
